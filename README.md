@@ -62,7 +62,7 @@ import { ShikiRequest } from 'shiki-utils';
 // or to import with tree shaking use
 // import ShikiRequest from 'shiki-utils/src/shiki_request';
 
-import axios from 'axios';
+import axios from 'axios'
 
 const origin = 'https://shikimori.one';
 const shikiRequest = new ShikiRequest(origin, axios)
@@ -70,8 +70,7 @@ const shikiRequest = new ShikiRequest(origin, axios)
 cosnt reuslt = await shikiRequest.autocomplete('user', 'z');
 ```
 
-####
-Package release command
+#### Package release command
 ```sh
 GITHUB_TOKEN=... npm run release
 ```
