@@ -26,8 +26,10 @@ Provides detectors of phone, tablet or mobile (combined phone or tablet).
 
 ```javascript
 import { mobileDetect, isTablet, isPhone, isMobile } from 'shiki-utils';
-// or to import with tree shaking use
-// import { mobileDetect, isTablet, isPhone, isMobile } from 'shiki-utils/src/mobile_detect';
+
+isTablet(); // check if it is tablet devise
+isPhone(); // check if it is phone devise
+isMobile();  // check if it is phone or tablet devise
 ```
 
 
